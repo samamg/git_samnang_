@@ -1,9 +1,9 @@
 <template>
   <div class="p-8">
     <h1 class="text-2xl font-bold">
-      Ravy Page
+      Email: muthravy@gmail.com <br>
+      Tel: 0987654321
     </h1>
-    <p>Welcome to Ravy</p>
   </div>
 </template>
 
