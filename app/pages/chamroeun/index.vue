@@ -40,18 +40,15 @@ const data = ref([
 
 <template>
   <div class="w-full">
-    <div class="flex gap-2 p-4">
-      <div class="font-bold text-2xl">
-        Hello this is Cham Roeun Page
-      </div>
+    <div class="flex flex-col gap-2 p-4">
       <HomeButton />
       <UButton to="/chamroeun/about">
         About me
       </UButton>
+      <UTable
+        :data="data"
+        class="flex-1"
+      />
     </div>
-    <UTable
-      :data="data"
-      class="flex-1"
-    />
   </div>
 </template>
